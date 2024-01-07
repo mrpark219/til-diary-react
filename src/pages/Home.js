@@ -59,7 +59,7 @@ const Home = () => {
                     <div className="today_til">{todayTIL === true ? <span>오늘의 TIL를 작성했습니다.</span> : <span>오늘의 TIL을 작성해주세요.</span>}</div>
                 </div>
             ) : (
-                <div class="login_box">
+                <div className="login_box">
                     <MyButton text={"로그인하기"} onClick={() => navigate(`/login`)} />
                 </div>
             )}
